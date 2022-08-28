@@ -12,11 +12,6 @@
         "default_icon":"/images/smiling.png"
     },
     "permissions": [
-        "activeTab",
-        "tabs"
-],
-    "host_permissions": [
-    "https://www.google.com/"
-]
-    
+        "activeTab"
+]    
 }
