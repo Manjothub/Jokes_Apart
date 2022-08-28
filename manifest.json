@@ -1,17 +1,22 @@
 {
     "name": "Dad Jokes",
-    "version":"0.0.1",
+    "version":"1.0",
     "description":"Jokes to make your Day",
     "manifest_version": 3,
     "icons": {
-        "128": "emoticon_cool.png"
+        "48" :"/images/smiling.png",
+        "128": "/images/emoticon_cool.png"
     },
     "action": {
-        "default": "popup.html",
-        "default_icon":"emoticon_cool.png"
+        "default_popup": "popup.html",
+        "default_icon":"/images/smiling.png"
     },
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "tabs"
+],
+    "host_permissions": [
+    "https://www.google.com/"
 ]
     
 }
